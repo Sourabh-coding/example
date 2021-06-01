@@ -1,0 +1,90 @@
+<html>
+  <link rel="icon" href="https://i.postimg.cc/Sjn6XGTB/IMG-20210530-121022.jpg/favicon.ico" sizes="16x16" type="image/jpg">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sourabh website</title>
+  <style>
+    #HeadBox{
+      width:345px;
+      height:50px;
+      background:#F8F8FF;
+    }
+
+    #Menuicon{
+      width:50px;
+      height:50px;
+      position:relative;
+      top:-50px;
+      left:290px;
+    }
+    #Name{
+      font-family: Righteous, cursive;
+      position:relative;
+    }
+    #Hi{
+      font-family:Comfortaa, cursive;
+    }
+    #This{
+      font-family:Comfortaa, cursive;
+    }
+    #playgame{
+      font-family:Comfortaa, cursive;
+    }
+  </style><style>
+    #intropage{
+      width:345px;
+      height:646px;
+      background-color:#ffcc00;
+      display:none;
+    }
+    #MyAnimation{
+      font-family:Comfortaa, cursive;
+      position:relative;
+      top:240px;
+    }
+    #loader{
+      width:50px;
+      height:50px;
+      border:8px solid black;
+      border-radius:50px;
+      border-top:8px solid #ffcc00;
+            position:relative;
+      top:350px;
+      animation:load 2s linear infinite;
+    }
+    @keyframes load{
+      from{transform:rotate(0deg);}
+      to{transform:rotate(360deg);}
+    }
+  #Menu{
+    width:345px;
+    height:200px;
+    border:1px solid black;
+  }
+  </style>
+  <div id="intropage">
+    <center><div id="loader"></div><font id="MyAnimation" size="10">Sourabh</font>
+
+  </div>
+  <div id="full" style="display:block;">
+    
+    <div id="HeadBox">
+  <img style="width:30px; height:30px; border-radius:10px;" src='https://i.postimg.cc/Sjn6XGTB/IMG-20210530-121022.jpg' border='0' alt='IMG-20210530-121022'/>
+  <font size="10" id="Name">Sourabh</font>
+</div>
+<img id="Menuicon" src='https://i.postimg.cc/CdB14Nz4/IMG-20210530-082332.jpg' border='0' alt='IMG-20210530-082332'/>
+<div id="Menu"></div>
+<center><font size="10" id="Hi">Hi, friends i'm Sourabh Welcome to My 'Website'</font></center>
+<br><center><font size="10" id="This">This are the few games i made</font></center>
+
+</div>
+<script>
+  setTimeout( () => {
+    document.getElementById("intropage").style.display = "none";
+    document.getElementById("full").style.display = "block";
+  }, 3000)
+</script>
+</html>
